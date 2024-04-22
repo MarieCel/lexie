@@ -47,7 +47,7 @@ recognition.onresult = (event)=>{
 
 }
 
-btn.addEventListener('click', ()=>{
+btn.addEventListener('touch', ()=>{
     content.textContent = "Listening...."
     recognition.start();
 })
